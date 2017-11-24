@@ -33,11 +33,11 @@ Now here's our SQL query:
 SELECT * FROM users WHERE username = 'nyancat'; DROP TABLE users;
 ```
 
-Oops. This way we can loose the whole users table \(if the server allows multiple SQL statements separated by semicolons to be executed at once\). Of course an attacker needs to know your table names to drop them but they can just try to guess them - names like `users`, `posts`, `comments`, `products` etc. are very common. 
+Oops. This way we can loose the whole users table \(if the server allows multiple SQL statements separated by semicolons to be executed at once\). Of course an attacker needs to know your table names to drop them but they can just try to guess them - names like `users`, `posts`, `comments`, `products` etc. are very common.
 
-## How to protect from this attack type?
+## How to protect from this attack?
 
-First rule: **do not trust your users**. Everything that they enter to any input field on your application can be dangerous and should be validated and escaped. Look at [Sources](#sources) section to find SLQ Injection Cheat Sheet provided by OWASP.org. 
+First rule: **do not trust your users**. Everything that they enter to any input field on your application can be dangerous and should be validated and escaped. Look at [Sources](#sources) section to find *SQL Injection Prevention Cheat Sheet* provided by OWASP.org.
 
 ## Sources
 
