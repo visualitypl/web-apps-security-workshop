@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Before we start]()
+* [Before we start](setup.md)
 * SQL Injection
   * [Introduction](sql-injection.md)
   * [Excersises](sql-injection-excersises.md)

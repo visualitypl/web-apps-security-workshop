@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introduction · Security Workshop</title>
+        <title>Before we start · Security Workshop</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,8 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="setup.html" />
     
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -87,7 +87,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -100,7 +100,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="setup.html">
+        <li class="chapter active" data-level="1.2" data-path="setup.html">
             
                 <a href="setup.html">
             
@@ -291,7 +291,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introduction</a>
+        <a href="." >Before we start</a>
     </h1>
 </div>
 
@@ -306,9 +306,25 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="security-workshop">Security Workshop</h1>
-<p>During this workshop you&apos;ll be able to learn basis of web apps security. Nowadays we think that we don&apos;t have to care about it because most frameworks protect us from most of the most popular types of attacks. But it can be dangerous. We should think how to protect our websites and remember that we can&apos;t trust that every framework we use is protected as it should be. Also it&apos;s pretty easy to break those security mechanism accidentally.</p>
-<p><img src="assets/4d7.png" alt=""></p>
+                                <h1 id="before-we-start">Before we start</h1>
+<h3 id="what-youll-need">What you&apos;ll need:</h3>
+<ul>
+<li>Postgresql installed on your system</li>
+<li>Ruby 2.4.1 installed on your system</li>
+<li>&apos;Books&apos; application cloned and set up</li>
+</ul>
+<h3 id="how-to-set-up-books-application">How to set up &apos;Books&apos; application:</h3>
+<ol>
+<li>Clone it from <a href="https://github.com/visualitypl/security-tutorial" target="_blank">https://github.com/visualitypl/security-tutorial</a></li>
+<li>Go to the app directory <code>cd security-tutorial</code></li>
+<li>If you don&apos;t have bundler installed, run <code>gem install bundler</code></li>
+<li>Install gems <code>bundle install</code></li>
+<li>Go to the <code>config/database.yml</code> config file and config the database. There may be your postgres username and password needed if the default configuration doesn&apos;t work.</li>
+<li>Create and migrate the database <code>rake db:create &amp;&amp; rake db:migrate</code></li>
+<li>Seed the database with sample data <code>rake db:seed</code></li>
+<li>Run rails server <code>rails server</code></li>
+<li>Don&apos;t analyze the code, simply follow the instructions :)</li>
+</ol>
 
                                 
                                 </section>
@@ -336,10 +352,10 @@
 
             
                 
-                
-                <a href="setup.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Before we start">
-                    <i class="fa fa-angle-right"></i>
+                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
                 </a>
+                
                 
             
         
@@ -348,7 +364,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Before we start","level":"1.2","depth":1,"path":"setup.md","ref":"setup.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Security Workshop","gitbook":"3.2.2"},"file":{"path":"README.md","mtime":"2017-09-01T14:22:30.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-06T11:56:33.797Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Before we start","level":"1.2","depth":1,"next":{"title":"SQL Injection","level":"1.3","depth":1,"ref":"","articles":[{"title":"Introduction","level":"1.3.1","depth":2,"path":"sql-injection.md","ref":"sql-injection.md","articles":[]},{"title":"Excersises","level":"1.3.2","depth":2,"path":"sql-injection-excersises.md","ref":"sql-injection-excersises.md","articles":[]}]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Security Workshop","gitbook":"3.2.2"},"file":{"path":"setup.md","mtime":"2018-04-06T11:55:10.674Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-06T11:56:33.797Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
