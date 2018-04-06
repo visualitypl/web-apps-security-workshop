@@ -7,10 +7,11 @@ Try to find SQL Injection vulnerability in the application and hack it. Somewher
 
 You can try to guess database table's names or you can also use [SQLMap](http://sqlmap.org/) tool to find table's names.  This tool is really powerful and worth to check.
 
-What you can do:
+Things to do:
 
-- try to add a new book without logging in
-- delete all books from the "List of books"
+1. Try to add a new book without logging in.
+2. Delete all books from the "List of books".
+3. (\*) Try to list books added to his private list by user with 'john' username.
 
 If you're having any troubles with this you can decode tips below (but please **don't do it unless you really don't know how to hack the website**):
 
