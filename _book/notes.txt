@@ -1,0 +1,17 @@
+Vulnerabilities from old Rails versions:
+
+1. CVE-2013-0156
+
+active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code, or cause a denial of service (memory and CPU consumption) involving nested XML entity references, by leveraging Action Pack support for (1) YAML type conversion or (2) Symbol type conversion.
+
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0156
+- http://jarmoc.com/blog/2013/05/28/ror-cve-2013-0156-in-the-wild/
+
+------
+
+2. CVE-2013-0155
+
+Ruby on Rails 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly consider differences in parameter handling between the Active Record component and the JSON implementation, which allows remote attackers to bypass intended database-query restrictions and perform NULL checks or trigger missing WHERE clauses via a crafted request, as demonstrated by certain "[nil]" values, a related issue to CVE-2012-2660 and CVE-2012-2694.
+
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0155
+- https://gist.github.com/postmodern/4499030
