@@ -11,5 +11,5 @@
 * [CSRF](csrf.md)
 * Insecure Direct Object Reference
   * [Introduction](idor.md)
-  * [Excersises](idor.md)
+  * [Excersises](idor-excersises.md)
 
