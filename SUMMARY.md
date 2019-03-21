@@ -8,7 +8,6 @@
 * XSS - Cross-site Scripting
   * [Introduction](xss.md)
   * [Excersises](xss-excersises.md)
-* [CSRF](csrf.md)
 * Insecure Direct Object Reference
   * [Introduction](idor.md)
   * [Excersises](idor-excersises.md)
