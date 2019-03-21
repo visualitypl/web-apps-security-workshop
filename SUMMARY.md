@@ -12,4 +12,5 @@
 * Insecure Direct Object Reference
   * [Introduction](idor.md)
   * [Excersises](idor-excersises.md)
+* [What's next?](next.md)
 

@@ -261,6 +261,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.7" data-path="next.html">
+            
+                <a href="next.html">
+            
+                    
+                    What's next?
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
 
@@ -315,7 +328,7 @@
 <p>Let&apos;s imagine following case: you&apos;re a fanatic of fishing and you&apos;re a user of a forum for people like you called &apos;Catfish Forum&apos; :) You don&apos;t want to log in each time you visit this site so you marked &apos;Remember me&apos; checkbox when logging in. This way every time you visit this site you&apos;re logged in.</p>
 <p>Ok, so then you need to find some file in the internet and you found a website which contains a &apos;Download&apos; link to this file. You want to download the file so you click the button. But instead of downloading the website makes a request to the &apos;Catfish Forum&apos;. It doesn&apos;t need to have your login, password or cookie to make the request because you&apos;re alredy logged in to it. This way the script can get some data about you (login, email, full name, maybe even address etc.) or even try to change the email or password and get access to your account.</p>
 <h2 id="how-to-protect-from-this-attack">How to protect from this attack?</h2>
-<p>There are 2 things which we should do to fully protect our website and our users:</p>
+<p>There are 2 things which we should do to protect our website and our users:</p>
 <h4 id="1-check-request-headers-to-verify-the-request-is-same-origin">1. Check request headers to verify the request is same origin.</h4>
 <p>We can compare the source origin and the target origin. If they matches, it&apos;s ok :) If not then the request should not be processed.</p>
 <h4 id="2-add-and-verify-csrf-token">2. Add and verify CSRF token</h4>
@@ -365,7 +378,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"CSRF","level":"1.5","depth":1,"next":{"title":"Insecure Direct Object Reference","level":"1.6","depth":1,"ref":"","articles":[{"title":"Introduction","level":"1.6.1","depth":2,"path":"idor.md","ref":"idor.md","articles":[]},{"title":"Excersises","level":"1.6.2","depth":2,"path":"idor-excersises.md","ref":"idor-excersises.md","articles":[]}]},"previous":{"title":"Excersises","level":"1.4.2","depth":2,"path":"xss-excersises.md","ref":"xss-excersises.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Security Workshop","gitbook":"3.2.2"},"file":{"path":"csrf.md","mtime":"2018-03-01T08:58:09.790Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-07-20T16:05:26.112Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"CSRF","level":"1.5","depth":1,"next":{"title":"Insecure Direct Object Reference","level":"1.6","depth":1,"ref":"","articles":[{"title":"Introduction","level":"1.6.1","depth":2,"path":"idor.md","ref":"idor.md","articles":[]},{"title":"Excersises","level":"1.6.2","depth":2,"path":"idor-excersises.md","ref":"idor-excersises.md","articles":[]}]},"previous":{"title":"Excersises","level":"1.4.2","depth":2,"path":"xss-excersises.md","ref":"xss-excersises.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Security Workshop","gitbook":"3.2.2"},"file":{"path":"csrf.md","mtime":"2019-03-21T18:27:01.686Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2019-03-21T21:19:35.003Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

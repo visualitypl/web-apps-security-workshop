@@ -3,7 +3,9 @@
 
 ## 1. Hack the application
 
+Normally you're not allowed to see a details of a book created by someone else. You can only see a details of a book which you created before by clicking "Detailed info" button. However the app is of course vulnerable to this attack so you can try to see the detailed info of any book in the system, doesn't matter if you're a creator of it or not.
 
+Try to see details of some book which which is not created by you, for example "The Sound and the Fury".
 
 ## 2. Fix it!
 

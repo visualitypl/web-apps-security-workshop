@@ -12,7 +12,7 @@ There are 3 subtypes of XSS:
 
 #### 1. Persistent XSS
 
-The script is being put into a `<input>` element in some form on a website. Then **it is stored** (that's why it's called persistent XSS) in the database. Then it's being run each time any users visits the page with injected script. As a good example we can imagine that someone pastes some javascript code in a comment on forum. Then each time anyone visits the topic page the script will be run. This way w would be able to, for example, steal morderator's/admin's cookie and login as moderator/admin and we wouldn't need to know their login or password.
+The script is being put into a `<input>` element in some form on a website. Then **it is stored** (that's why it's called persistent XSS) in the database. Then it's being run each time a user visits the page with injected script. As a good example we can imagine that someone pastes some javascript code in a comment on forum. Then each time anyone visits the topic page the script will be run. This way w would be able to, for example, steal morderator's/admin's cookie and login as moderator/admin and we wouldn't need to know their login or password.
 
 #### 2. Reflected XSS
 
@@ -51,3 +51,4 @@ For more you can check *OWASP: SQL Injection Prevention Cheat Sheet* linked in [
 ## Sources
 
 - [OWASP: SQL Injection Prevention Cheat Sheet](https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet)
+- [[YouTube] OWASP Top 10: Cross-Site Scripting (XSS)](https://www.youtube.com/watch?v=IuzU4y-UjLw)

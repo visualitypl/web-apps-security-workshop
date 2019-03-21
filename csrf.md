@@ -12,7 +12,7 @@ Ok, so then you need to find some file in the internet and you found a website w
 
 ## How to protect from this attack?
 
-There are 2 things which we should do to fully protect our website and our users:
+There are 2 things which we should do to protect our website and our users:
 
 #### 1. Check request headers to verify the request is same origin.
 We can compare the source origin and the target origin. If they matches, it's ok :) If not then the request should not be processed.
