@@ -43,7 +43,7 @@ First rule: **do not trust your users**. Everything that they enter to any input
 
 * [OWASP: general injection definition](https://www.owasp.org/index.php/Top_10_2017-A1-Injection)
 * [OWASP: SQL Injection](https://www.owasp.org/index.php/SQL_Injection)
-* [OWASP: SQL Injection Prevention Cheat Sheet](https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet)
+* [OWASP: SQL Injection Prevention Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.md)
 
 
 

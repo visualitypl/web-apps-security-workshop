@@ -29,5 +29,5 @@ What shoud be obvious but it's also worth adding, all endpoints under `/admin` (
 ## Sources
 
 * [OWASP: Insecure Direct Object Reference](https://www.owasp.org/index.php/Top_10_2007-Insecure_Direct_Object_Reference)
-* [OWASP: Insecure Direct Object Reference Prevention Cheat Sheet](https://www.owasp.org/index.php/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet)
+* [OWASP: Insecure Direct Object Reference Prevention Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.md)
 

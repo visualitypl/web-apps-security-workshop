@@ -50,5 +50,5 @@ For more you can check *OWASP: SQL Injection Prevention Cheat Sheet* linked in [
 
 ## Sources
 
-- [OWASP: SQL Injection Prevention Cheat Sheet](https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet)
+- [OWASP: SQL Injection Prevention Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.md)
 - [[YouTube] OWASP Top 10: Cross-Site Scripting (XSS)](https://www.youtube.com/watch?v=IuzU4y-UjLw)
