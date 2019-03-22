@@ -14,7 +14,7 @@
         font-weight: normal;
       }
       a { color: #fff; }
-      .remark-slide-content { background: #333; }
+      .remark-slide-content { background: #333; font-size: 28px; }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; background: #111; }
     </style>
   </head>
@@ -31,9 +31,7 @@ class: center, middle
 
 1. Introduction
 2. OWASP
-3. Examples of serious security issues
-4. What are we going to do during the workshop?
-5. What kind of attacks are we going to analyze?
+3. What are we going to do during the workshop?
 
 ---
 
@@ -41,65 +39,51 @@ class: center, middle
 
 Objectives of this workshop:
 
-- understand that security is a serious topic
-- understand that frameworks don't guarantee security
 - learn
 - practice
-- go deeper and learn & paractice more
+- learn & paractice more
 
 ---
 
 # OWASP
 
-OWASP (Open Web Application Security Project) is a foundation set up in 2001. It is an open community
-and it's goal is to help organizations/companies with understanding security issues and
+OWASP (Open Web Application Security Project) is a foundation set up in 2001.
+
+- open community
+- goal: help organizations/companies with understanding security issues and
 developing/maintaning applications that can be trusted.
-
-They regularly publish the rank of 'Top 10 Application Security Risks'. The last update of the list was
-in 2007 and the workshop is partially based on the knowledge shared by this organization.
-
-I strongly recommend everyone to check the most recent rank of top security risks and analyze them.
-We'll be doing it with only 4 of those risks but the more you know the better for your
-application and business.
 
 .center[https://www.owasp.org]
 
 ---
 
-## Examples of serious security issues
+# OWASP
 
-<small>
-- On March 27, 2011, mysql.com, the official homepage for MySQL, was compromised by a hacker using SQL blind injection
-- In July 2012 a hacker group was reported to have stolen 450,000 login credentials from Yahoo!. The logins were stored in plain text and were allegedly taken from a Yahoo subdomain, Yahoo! Voices. The group breached Yahoo's security by using a "union-based SQL injection technique"
-- In 2012 a serious Stored XSS vulnerability was found by a security researcher which resulted in a Bug Bounty Reward
-- In 2015 there was a security issue in Twich which allowed unathorized access to the data, most probably casued by XSS vulnerability
-</small>
+They regularly publish the rank of 'Top 10 Application Security Risks'
 
-There are only 4 examples which I managed to Google in a few minutes but there were many of them in the history. As you see even big companies which spend huge amounts of money on devteams can have serious problems with security. Most probably many of them use some frameworks and try to keep the code in good quality and update all libraries as often as it's possible but still - it happenes.
+---
 
-What we should remember about is that we shouldn't trust any technology / library and we should educate ourselves in this topic as much as it's possible.
+## But we have frameworks
+
+.center[Do we still have to learn that?]
+
+.center[![Yes](agree.gif)]
+
 
 ---
 
 ### What are we going to do during the workshop?
 
-There will be some types of attacks described. Each type will have a theoretical part to read and learn.
+```
+['SQL Injection', 'XSS', 'IDOR'].each do |attack|
+  learn(attack)
+  hack_using(attack)
+  fix_vulnerability(attack)
+end
 
-For most of the types there will be also a practical part. In each practical part we'll have to:
-- hack the application (buggy and vulnerable, prepared only to be used during the workshop)
-- fix the issue
-- try to hack it again to make sure that it's fixed
-
-After finishing the must-to-do things there'll be some extra excersises, sources to read and practice.
-
----
-
-### What kind of attacks are we going to analyze?
-
-- SQL Injection (theory + practice)
-- XSS (Cross-Site Scripting) (theory + practice)
-- CSRF (theory only)
-- Insecure Direct Object Reference (theory + practice)
+learn_more()
+practice_more()
+```
 
 ---
 
@@ -107,7 +91,7 @@ class: center, middle
 
 # Let's get the ball rolling!
 
-link_to_workshop [Github page]
+https://tinyurl.com/visuality-workshop
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">

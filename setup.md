@@ -9,7 +9,7 @@
 
 ### How to set up 'Books' application:
 
-1. Clone it from https://github.com/visualitypl/security-tutorial
+1. Clone it from https://github.com/visualitypl/security-workshop-app
 2. Go to the app directory `cd security-tutorial`
 3. If you don't have bundler installed, run `gem install bundler`
 4. Install gems `bundle install`
