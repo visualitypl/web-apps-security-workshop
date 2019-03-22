@@ -7,6 +7,7 @@
 
 ## Practice
 
-There's a Google Gruyere (https://google-gruyere.appspot.com/) project which allows you to challenge yourself and learn more in practice. I highly recommend playing with it. Just follow the instructions. In this platform, there'll be a separate instance of the app created for each of you so you can play with the app in separated environment.
-
+1. There's a Google Gruyere (https://google-gruyere.appspot.com/) project which allows you to challenge yourself and learn more in practice. I highly recommend playing with it. Just follow the instructions. In this platform, there'll be a separate instance of the app created for each of you so you can play with the app in separated environment.
 Gruyere is written in Python but this shouldn't be a problem. Even without any experience in Python you'll learn a lot because huge part of the challenges don't require looking at the Python code :)
+
+2. There's a nice game where you can check your knowledge (and you can compete with your friends): http://www.gameofhacks.com/
