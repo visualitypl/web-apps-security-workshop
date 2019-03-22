@@ -1,6 +1,5 @@
 # XSS Excersises
 
-
 ## 1. Hack the application
 
 Again, similar case like with SQL Injection. Somewhere in the app there is a place which can be used to perform XSS attack. Try to find and use it.
@@ -8,14 +7,13 @@ Again, similar case like with SQL Injection. Somewhere in the app there is a pla
 Things to do:
 
 1. Try to display Javascript alert with any content (can be simple 'hacked!' text) by injecting a piece of code somewhere in the app.
-2. If you managed to find a place which is vulnerable to XSS use the same place to paste a Javascript code which will send currently logged in user cookie to another website.
+2. If you managed to find a place which is vulnerable to XSS, think about Javascript code which would send currently logged in user cookie to another server. Is it enough to take over user's session? Why?
 
 If you're having any troubles with this you can decode tips below (but please **don't do it unless you really don't know how to *hack* the website**):
 
 ```
 R28gdG8gdGhlIHVzZXIgcHJvZmlsZSBlZGl0aW5nIHBhZ2UgYW5kIHRoaW5rIHdoaWNoIGZpZWxkIGNhbiBiZSB1c2VkIHRvIGluamVjdCBhIEphdmFzY3JpcHQgY29kZQ==
 ```
-
 
 ## 2. Fix it!
 
