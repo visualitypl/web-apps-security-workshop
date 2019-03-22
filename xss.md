@@ -46,9 +46,9 @@ Again, as in SQL Injection: don't trust anyone. Any data sent by user should be 
 
 It's also worth to set `HttpOnly` param for session cookies - it should help to protect users from accessing their accounts by stealing cookies.
 
-For more you can check *OWASP: SQL Injection Prevention Cheat Sheet* linked in [Sources](#sources) section.
+For more you can check *OWASP: XSS Prevention Cheat Sheet* linked in Sources section below.
 
 ## Sources
 
-- [OWASP: SQL Injection Prevention Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.md)
+- [OWASP: XSS Prevention Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.md)
 - [[YouTube] OWASP Top 10: Cross-Site Scripting (XSS)](https://www.youtube.com/watch?v=IuzU4y-UjLw)
